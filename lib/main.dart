@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'Input.dart';
 import 'Convert.dart';
 import 'Result.dart';
+import 'RiwayatKonversi.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,6 +27,10 @@ class _MyAppState extends State<MyApp> {
   //buat list
   var listItem = {"Kelvin", "Reamur"};
 
+  //variable bertipe List<String> (prak 2)
+  // ignore: deprecated_member_use
+  List<String> listViewItem = List<String>();
+
   //Fungsi perhitungan suhu perlu untuk diubah sehingga hanya memproses konversi sesuai
   //dengan pilihan pengguna.
   void konversiSuhu() {
@@ -35,6 +40,7 @@ class _MyAppState extends State<MyApp> {
         _result = _inputUser + 273;
       else
         _result = (4 / 5) * _inputUser;
+      listViewItem.add("$_newValue : $_result");
     });
   }
 
@@ -58,29 +64,43 @@ class _MyAppState extends State<MyApp> {
               children: [
                 Input(etInput: etInput),
                 //ubah DropdownButton
-                DropdownButton<String>(
-                  items: listItem.map((String value) {
-                    return DropdownMenuItem<String>(
-                      value: value,
-                      child: Text(value),
-                    );
-                  }).toList(),
-                  // isi value dengan variabel _newValue.
-                  value: _newValue,
-                  onChanged: dropdownOnChanged,
-                ),
+                buildDropdownButton(),
                 Result(result: _result,),
                 Convert(
                   konvertHandler: konversiSuhu,
                 ),
+
+                //riwayat
+                Container(
+                  margin: EdgeInsets.only(top: 10.0, bottom: 10.0),
+                  child: Text(
+                    "Riwayat Konversi", style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),
+                  ),
+                ),
+                RiwayatKonversi(listViewItem: listViewItem),
               ],
             ),
           ),
         ));
   }
-  
+
+  DropdownButton<String> buildDropdownButton() {
+    return DropdownButton<String>(
+      items: listItem.map((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+            child: Text(value),
+        );
+        }).toList(),
+      // isi value dengan variabel _newValue.
+      value: _newValue,
+      onChanged: dropdownOnChanged,
+    );
+  }
+
   //method dropdownOnChanged pada parameter value untuk mengubah pilihan pada dropdown.
   void dropdownOnChanged(String changeValue) {
     _newValue = changeValue;
+    konversiSuhu();
   }
 }
