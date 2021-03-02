@@ -21,7 +21,7 @@
   <li>Sampai Pada tahap ini anda sudah belajar cara untuk menggunakan list dan fungsi map yang ada di Dart.</li>
 </ul><br><br>
 
-<b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
+<center><b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br></center>
 <b>Halaman Utama</b><br>
 (https://user-images.githubusercontent.com/52942668/109603950-467d8580-7b55-11eb-8689-5a3c913337d8.jpeg)<br>
 <b>Reamur</b><br>
