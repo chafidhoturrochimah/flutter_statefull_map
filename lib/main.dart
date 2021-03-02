@@ -18,14 +18,23 @@ class _MyAppState extends State<MyApp> {
 
   //variabel berubah
   double _inputUser = 0;
-  double _kelvin = 0;
-  double _reamur = 0;
 
+  //mengeset nilai pada dropdown
+  String _newValue = "Kelvin";
+  double _result = 0;
+
+  //buat list
+  var listItem = {"Kelvin", "Reamur"};
+
+  //Fungsi perhitungan suhu perlu untuk diubah sehingga hanya memproses konversi sesuai
+  //dengan pilihan pengguna.
   void konversiSuhu() {
     setState(() {
       _inputUser = double.parse(etInput.text);
-      _kelvin = _inputUser + 273;
-      _reamur = _inputUser * (4 / 5);
+      if (_newValue == "Kelvin")
+        _result = _inputUser + 273;
+      else
+        _result = (4 / 5) * _inputUser;
     });
   }
 
@@ -45,21 +54,22 @@ class _MyAppState extends State<MyApp> {
           body: Container(
             margin: EdgeInsets.all(8),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Input(etInput: etInput),
-                DropdownButton(
-                  items: [
-                    DropdownMenuItem(
-                        value: "Kelvin",
-                        child: Container(child: Text("Kelvin"))),
-                    DropdownMenuItem(
-                        value: "Reamur",
-                        child: Container(child: Text("Reamur"))),
-                  ],
-                  value: null,
-                  onChanged: (String changeValue) {},
+                //ubah DropdownButton
+                DropdownButton<String>(
+                  items: listItem.map((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                  // isi value dengan variabel _newValue.
+                  value: _newValue,
+                  onChanged: dropdownOnChanged,
                 ),
-                Result(kelvin: _kelvin, reamur: _reamur),
+                Result(result: _result,),
                 Convert(
                   konvertHandler: konversiSuhu,
                 ),
@@ -67,5 +77,10 @@ class _MyAppState extends State<MyApp> {
             ),
           ),
         ));
+  }
+  
+  //method dropdownOnChanged pada parameter value untuk mengubah pilihan pada dropdown.
+  void dropdownOnChanged(String changeValue) {
+    _newValue = changeValue;
   }
 }

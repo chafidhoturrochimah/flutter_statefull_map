@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 class Input extends StatelessWidget {
   const Input({
     Key key,
