@@ -1,16 +1,22 @@
 # flutter_statefull_map
 
-A new Flutter project.
+<ul>
+  <li><b>Nama    : Chafidhoturrochimah</b></li>
+  <li><b>Kelas   : MI-2B</b></li>
+  <li><b>NIM     : 1931710013</b></li>  
+</ul><br>
 
-## Getting Started
+<center><b>Praktikum 1 Menambahkan Dropdown Widget</b><br></center>
+<b>Langkah - langkah : </b><br>
+<ul>
+  <li>Pertama buat list</li>
+  <li>Selanjutnya tambahkan code DropdownButton dibawah Input seperti yang ada di modul 4.3.2</li>
+  <li>Membuat variabel bertipe String untuk mengeset nilai pada DropdownButton</li> 
+  <li>Selanjutnya isi value dengan variabel _newValue.</li>
+  <li>Mengisi Fungsi pada onChanged agar  nilai dari _newValue diupdate ketika user mengubah pilihan pada dropdown.</li>
+  <li>Langkah selanjutnya adalah mengubah Result.dart sehingga memiliki tampilan hanya menerima 1 variabel.</li>
+  <li>Mengubah Fungsi Perhitungan Suhu untuk memproses konversi sesuai dengan pilihan pengguna.</li>
+  <li>Sampai Pada tahap ini anda sudah belajar cara untuk menggunakan list dan fungsi map yang ada di Dart.</li>
+</ul><br><br>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
