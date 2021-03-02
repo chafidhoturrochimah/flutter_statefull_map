@@ -6,7 +6,7 @@
   <li><b>NIM     : 1931710013</b></li>  
 </ul><br>
 
-<center><b>Praktikum 1 Menambahkan Dropdown Widget</b><br></center>
+<b>Praktikum 1 Menambahkan Dropdown Widget</b><br>
 <b>Langkah - langkah : </b><br>
 <ul>
   <li>Pertama buat list</li>
@@ -21,11 +21,14 @@
   <li>Sampai Pada tahap ini anda sudah belajar cara untuk menggunakan list dan fungsi map yang ada di Dart.</li>
 </ul><br><br>
 
-<center><b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br></center>
-<b>Halaman Utama</b><br>
+<b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
+Halaman Utama<br>
 (https://user-images.githubusercontent.com/52942668/109603950-467d8580-7b55-11eb-8689-5a3c913337d8.jpeg)<br>
-<b>Reamur</b><br>
+Reamur<br>
 (https://user-images.githubusercontent.com/52942668/109603981-52694780-7b55-11eb-9f7d-c64151830eec.jpeg)<br>
-<b>Kelvin</b><br>
-(https://user-images.githubusercontent.com/52942668/109603996-5a28ec00-7b55-11eb-8261-d1b5020ef6b0.jpeg)<br>
+Kelvin<br>
+(https://user-images.githubusercontent.com/52942668/109603996-5a28ec00-7b55-11eb-8261-d1b5020ef6b0.jpeg)<br><br>
+
+<b>Praktikum 2 Menambahkan ListView Widget</b><br>
+<b>Langkah - langkah : </b><br>
 
