@@ -19,7 +19,7 @@
   <li>Langkah selanjutnya adalah mengubah Result.dart sehingga memiliki tampilan hanya menerima 1 variabel.</li>
   <li>Mengubah Fungsi Perhitungan Suhu untuk memproses konversi sesuai dengan pilihan pengguna.</li>
   <li>Sampai Pada tahap ini anda sudah belajar cara untuk menggunakan list dan fungsi map yang ada di Dart.</li>
-</ul><br><br>
+</ul><br>
 
 <b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
 Halaman Utama<br>
