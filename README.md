@@ -29,6 +29,20 @@ Reamur<br>
 Kelvin<br>
 (https://user-images.githubusercontent.com/52942668/109603996-5a28ec00-7b55-11eb-8261-d1b5020ef6b0.jpeg)<br><br>
 
+<b>Tugas Praktikum 1 Perubahan Konversi Suhu Di DropDown Tanpa Klik Button Konversi Suhu</b><br>
+<b>Langkah - langkah : </b><br>
+<ul>
+  <li>Menambahkan method konversiSuhu pada method dropdownOnChanged yang berada di dalam DropdownButton</li>
+  (https://user-images.githubusercontent.com/52942668/109629176-27432000-7b76-11eb-8d25-602a5a846a87.png)
+</ul><br>
+
+<b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
+<b>Ketika di klik dropdown ( kelvin / reamur ), maka otomatis hasilnya ganti tanpa klik button Konversi Suhu</b><br>
+![image](https://user-images.githubusercontent.com/52942668/109629658-a33d6800-7b76-11eb-9157-ed058b75e118.png)<br>
+![image](https://user-images.githubusercontent.com/52942668/109629707-b2241a80-7b76-11eb-9e13-026ce5dc990f.png)<br>
+![image](https://user-images.githubusercontent.com/52942668/109629776-c700ae00-7b76-11eb-9b5f-72ee876116de.png)<br>
+![image](https://user-images.githubusercontent.com/52942668/109629895-e7c90380-7b76-11eb-9f49-7d96cb442582.png)<br>
+
 <b>Praktikum 2 Menambahkan ListView Widget</b><br>
 <b>Langkah - langkah : </b><br>
 
