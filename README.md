@@ -33,7 +33,7 @@ Kelvin<br>
 <b>Langkah - langkah : </b><br>
 <ul>
   <li>Menambahkan method konversiSuhu pada method dropdownOnChanged yang berada di dalam DropdownButton</li>
-  (https://user-images.githubusercontent.com/52942668/109629176-27432000-7b76-11eb-8d25-602a5a846a87.png)
+  ![image](https://user-images.githubusercontent.com/52942668/109630124-219a0a00-7b77-11eb-8af4-6e404db77d68.png)<br>
 </ul><br>
 
 <b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
@@ -43,6 +43,20 @@ Kelvin<br>
 ![image](https://user-images.githubusercontent.com/52942668/109629776-c700ae00-7b76-11eb-9b5f-72ee876116de.png)<br>
 ![image](https://user-images.githubusercontent.com/52942668/109629895-e7c90380-7b76-11eb-9f49-7d96cb442582.png)<br>
 
-<b>Praktikum 2 Menambahkan ListView Widget</b><br>
+<b>Praktikum 2 Menambahkan ListView Widget Riwayat</b><br>
 <b>Langkah - langkah : </b><br>
+<ul>
+  <li>Membuat variabel List<String> sesuai modul 4.4</li>
+  <li>Menampilkan hasil listViewItem menggunakan Map dengan code sesuai modul 4.4</li>
+  <li>Di method konversiSuhu ditambah listViewItem.add("$_newValue : $_result");</li>
+  <li>Lalu, extract widget di bagian dropdownbutton dan riwayat sesuai modul 4.4</li>
+</ul>
+
+<b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
+![image](https://user-images.githubusercontent.com/52942668/109631082-35923b80-7b78-11eb-8c2d-cfe9ef91e1f5.png)<br>
+![image](https://user-images.githubusercontent.com/52942668/109631236-52c70a00-7b78-11eb-9b06-0ff7e9b4cfa2.png)<br>
+![image](https://user-images.githubusercontent.com/52942668/109631336-6ffbd880-7b78-11eb-9126-91638f62ba97.png)
+
+
+
 
