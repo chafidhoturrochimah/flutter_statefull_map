@@ -22,3 +22,7 @@
 </ul><br><br>
 
 <b>Dan hasil aplikasi yang telah dibuat adalah sebagai berikut : </b><br>
+(https://user-images.githubusercontent.com/52942668/109603950-467d8580-7b55-11eb-8689-5a3c913337d8.jpeg)<br>
+(https://user-images.githubusercontent.com/52942668/109603981-52694780-7b55-11eb-9f7d-c64151830eec.jpeg)<br>
+(https://user-images.githubusercontent.com/52942668/109603996-5a28ec00-7b55-11eb-8261-d1b5020ef6b0.jpeg)<br>
+
